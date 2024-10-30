@@ -37,7 +37,7 @@ Copiar código
 ```shell
 netsh int ipv4 show global
 ```
-![Texto alternativo de la imagen](ruta/a/tu/imagen.png](https://github.com/gpradinett/ipv4-hop-limit-configurator/blob/main/image/netsh%20int%20ipv4%20show%20global.png))
+![Output del comando netsh int ipv4 show global](https://github.com/gpradinett/ipv4-hop-limit-configurator/raw/main/image/netsh%20int%20ipv4%20show%20global.png)
 
 
 Contribuciones
