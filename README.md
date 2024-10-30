@@ -1,8 +1,12 @@
 # IPv4 Hop Limit Configurator
 
-## Descripción
+### Descripción
 
-Este repositorio contiene un script que utiliza la utilidad de línea de comandos `netsh` para configurar el límite de saltos (TTL) predeterminado para paquetes IPv4 en sistemas operativos Windows. El límite de saltos, conocido como TTL (Time To Live) en IPv4, define el número máximo de routers o puntos intermedios que un paquete puede atravesar antes de ser descartado.
+Este repositorio contiene un script que utiliza la utilidad de línea de comandos `netsh` para configurar el límite de saltos (TTL) predeterminado para paquetes IPv4 en sistemas operativos Windows. El TTL (Time To Live) define el número máximo de routers o puntos intermedios que un paquete puede atravesar antes de ser descartado.
+
+### Motivación para el Uso del Script
+
+Este script es especialmente útil para usuarios que desean compartir su conexión de datos móviles desde un dispositivo Android o iPhone hacia otros equipos, como laptops, cuando el proveedor de servicios de red limita el uso de datos gratuitos al dispositivo móvil. Al ajustar el valor del TTL en la configuración de red, el script permite que los paquetes de datos se transmitan sin problemas a dispositivos adicionales. Sin esta configuración, los dispositivos conectados a través de la conexión compartida pueden establecer conexión, pero no navegar debido a restricciones impuestas por el operador.
 
 ### ¿Qué Hace el Script?
 El script ejecuta el siguiente comando para establecer el valor del límite de saltos predeterminado a 65:
