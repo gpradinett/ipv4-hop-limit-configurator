@@ -52,9 +52,7 @@ C:\Users\gprad>netstat -nao | findstr ESTABLISHED
   TCP    192.168.18.33:65530    18.164.5.142:443       ESTABLISHED     7152
 ```
 
-Perfecto, aquí tienes **todo tu texto completamente convertido a Markdown**, corrigiendo la estructura para que sea válido, claro y funcional dentro de un archivo `README.md`:
-
-````markdown
+````
 ## Ver conexiones establecidas con `netstat`
 
 El siguiente comando permite listar todas las conexiones de red activas en estado **ESTABLISHED** en un sistema Windows:
